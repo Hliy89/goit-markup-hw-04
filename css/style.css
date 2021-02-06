@@ -478,14 +478,15 @@ img {
   fill: rgba(175, 177, 184, 1);
 }
 
-.clients-list-item:hover .clients-link-icon,
-.clients-list-item:focus .clients-link-icon {
+.clients-list-link:hover .clients-link-icon,
+.clients-list-link:focus .clients-link-icon {
   fill: var(--accent-color);
 }
 
 .clients-list-link:hover,
 .clients-list-link:focus {
   border-color: var(--accent-color);
+  outline: none;
 }
 
 /* Footer Подвал */
