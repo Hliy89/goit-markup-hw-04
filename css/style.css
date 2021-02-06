@@ -480,8 +480,12 @@ img {
 
 .clients-list-item:hover .clients-link-icon,
 .clients-list-item:focus .clients-link-icon {
-  color: #2196f3;
   fill: var(--accent-color);
+}
+
+.clients-list-link:hover,
+.clients-list-link:focus {
+  border-color: var(--accent-color);
 }
 
 /* Footer Подвал */
